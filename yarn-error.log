@@ -1,0 +1,49 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe F:\FILES\VSCode Assets\node_modules\yarn\bin\yarn.js add glslify-deps -D
+
+PATH: 
+  F:\FILES\VSCode Assets\troyenzo -version 2\node_modules\.bin;F:\FILES\VSCode Assets\node_modules\.bin;F:\FILES\node_modules\.bin;F:\node_modules\.bin;C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\run-script\lib\node-gyp-bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Process Lasso\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Git\bin\git.exe;C:\Users\troye\AppData\Local\Microsoft\WindowsApps;C:\Users\troye\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\troye\AppData\Roaming\npm;C:\Users\troye\AppData\Local\GitHubDesktop\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.18.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'F:\FILES\VSCode Assets\troyenzo -version 2\node_modules\deasync\bin\win32-x64-node-16\deasync.node'
+
+npm manifest: 
+  {
+    "name": "troyenzo--version-2",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "parcel index.html --open",
+      "build": "parcel build index.html"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "parcel-bundler": "^1.12.5"
+    },
+    "dependencies": {
+      "@parcel/transformer-webmanifest": "^2.8.0",
+      "glsl-shader-loader": "^0.1.6",
+      "glslify": "^7.1.1",
+      "glslify-bundle": "^5.1.1",
+      "sass": "^1.56.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
