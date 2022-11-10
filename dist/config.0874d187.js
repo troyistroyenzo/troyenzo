@@ -172,27 +172,27 @@ module.exports = reloadCSS;
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/style/landing.scss":[function(require,module,exports) {
+},{"./..\\fonts\\Avent-Pro.otf":[["Avent-Pro.33316a8a.otf","assets/fonts/Avent-Pro.otf"],"assets/fonts/Avent-Pro.otf"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/style/landing.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\fonts\\Devant-Horgen.ttf":[["Devant-Horgen.eec8275d.ttf","assets/fonts/Devant-Horgen.ttf"],"assets/fonts/Devant-Horgen.ttf"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/style/loader.scss":[function(require,module,exports) {
+},{"./..\\fonts\\Avent-Pro.otf":[["Avent-Pro.33316a8a.otf","assets/fonts/Avent-Pro.otf"],"assets/fonts/Avent-Pro.otf"],"./..\\fonts\\Devant-Horgen.ttf":[["Devant-Horgen.eec8275d.ttf","assets/fonts/Devant-Horgen.ttf"],"assets/fonts/Devant-Horgen.ttf"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/style/loader.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/style/links.scss":[function(require,module,exports) {
+},{"./..\\fonts\\Avent-Pro.otf":[["Avent-Pro.33316a8a.otf","assets/fonts/Avent-Pro.otf"],"assets/fonts/Avent-Pro.otf"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/style/links.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/style/skills.scss":[function(require,module,exports) {
+},{"./..\\fonts\\Avent-Pro.otf":[["Avent-Pro.33316a8a.otf","assets/fonts/Avent-Pro.otf"],"assets/fonts/Avent-Pro.otf"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/style/skills.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/style/reviews.scss":[function(require,module,exports) {
+},{"./..\\fonts\\Avent-Pro.otf":[["Avent-Pro.33316a8a.otf","assets/fonts/Avent-Pro.otf"],"assets/fonts/Avent-Pro.otf"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/style/reviews.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/style/fade.scss":[function(require,module,exports) {
+},{"./..\\fonts\\Avent-Pro.otf":[["Avent-Pro.33316a8a.otf","assets/fonts/Avent-Pro.otf"],"assets/fonts/Avent-Pro.otf"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/style/fade.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
@@ -204,7 +204,7 @@ module.hot.accept(reloadCSS);
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/style/swiper.scss":[function(require,module,exports) {
+},{"./..\\fonts\\Avent-Pro.otf":[["Avent-Pro.33316a8a.otf","assets/fonts/Avent-Pro.otf"],"assets/fonts/Avent-Pro.otf"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/style/swiper.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
@@ -212,19 +212,19 @@ module.hot.accept(reloadCSS);
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/style/contact.scss":[function(require,module,exports) {
+},{"./..\\fonts\\Avent-Pro.otf":[["Avent-Pro.33316a8a.otf","assets/fonts/Avent-Pro.otf"],"assets/fonts/Avent-Pro.otf"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/style/contact.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/style/portfolio.scss":[function(require,module,exports) {
+},{"./..\\fonts\\Avent-Pro.otf":[["Avent-Pro.33316a8a.otf","assets/fonts/Avent-Pro.otf"],"assets/fonts/Avent-Pro.otf"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/style/portfolio.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/style/services.scss":[function(require,module,exports) {
+},{"./..\\fonts\\Avent-Pro.otf":[["Avent-Pro.33316a8a.otf","assets/fonts/Avent-Pro.otf"],"assets/fonts/Avent-Pro.otf"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/style/services.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/style/featured.scss":[function(require,module,exports) {
+},{"./..\\fonts\\Avent-Pro.otf":[["Avent-Pro.33316a8a.otf","assets/fonts/Avent-Pro.otf"],"assets/fonts/Avent-Pro.otf"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/style/featured.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
@@ -271,7 +271,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57746" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62588" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

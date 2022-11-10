@@ -2,6 +2,10 @@
 @import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
 @import url("http://fonts.cdnfonts.com/css/futura-md-bt");
 @import url("http://fonts.cdnfonts.com/css/avenir-next-lt-pro");
+@font-face {
+  font-family: "Avenir Next LT Pro";
+  src: url(/Avent-Pro.33316a8a.otf);
+}
 * {
   margin: 0;
   box-sizing: border-box;
@@ -78,6 +82,10 @@ ul {
 @import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
 @import url("http://fonts.cdnfonts.com/css/futura-md-bt");
 @import url("http://fonts.cdnfonts.com/css/avenir-next-lt-pro");
+@font-face {
+  font-family: "Avenir Next LT Pro";
+  src: url(/Avent-Pro.33316a8a.otf);
+}
 * {
   margin: 0;
   box-sizing: border-box;
@@ -150,6 +158,10 @@ ul {
 @font-face {
   font-family: "Devant";
   src: url(/Devant-Horgen.eec8275d.ttf);
+}
+@font-face {
+  font-family: "Avenir Next LT Pro";
+  src: url(/Avent-Pro.33316a8a.otf);
 }
 .landing {
   background: black;
@@ -339,6 +351,10 @@ ul {
 @import url("http://fonts.cdnfonts.com/css/avenir-next-lt-pro");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Syne&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Roboto:ital,wght@0,300;0,500;1,900&family=Syne&display=swap");
+@font-face {
+  font-family: "Avenir Next LT Pro";
+  src: url(/Avent-Pro.33316a8a.otf);
+}
 * {
   margin: 0;
   box-sizing: border-box;
@@ -478,6 +494,10 @@ ul {
 @import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
 @import url("http://fonts.cdnfonts.com/css/futura-md-bt");
 @import url("http://fonts.cdnfonts.com/css/avenir-next-lt-pro");
+@font-face {
+  font-family: "Avenir Next LT Pro";
+  src: url(/Avent-Pro.33316a8a.otf);
+}
 * {
   margin: 0;
   box-sizing: border-box;
@@ -688,6 +708,10 @@ ul {
 @import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
 @import url("http://fonts.cdnfonts.com/css/futura-md-bt");
 @import url("http://fonts.cdnfonts.com/css/avenir-next-lt-pro");
+@font-face {
+  font-family: "Avenir Next LT Pro";
+  src: url(/Avent-Pro.33316a8a.otf);
+}
 * {
   margin: 0;
   box-sizing: border-box;
@@ -762,7 +786,7 @@ ul {
   color: #dfd2b8;
   position: relative;
   font-size: 50px;
-  height: 300px;
+  height: 17rem;
   width: 100%;
   background: linear-gradient(to right, #050409, #090818);
   overflow: hidden;
@@ -770,7 +794,7 @@ ul {
   padding: 1rem;
 }
 .skills img {
-  height: 100px;
+  height: 5rem;
   padding-left: 150px;
 }
 .skills__header {
@@ -824,6 +848,10 @@ ul {
 @import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
 @import url("http://fonts.cdnfonts.com/css/futura-md-bt");
 @import url("http://fonts.cdnfonts.com/css/avenir-next-lt-pro");
+@font-face {
+  font-family: "Avenir Next LT Pro";
+  src: url(/Avent-Pro.33316a8a.otf);
+}
 * {
   margin: 0;
   box-sizing: border-box;
@@ -1094,6 +1122,10 @@ h2 {
 @import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
 @import url("http://fonts.cdnfonts.com/css/futura-md-bt");
 @import url("http://fonts.cdnfonts.com/css/avenir-next-lt-pro");
+@font-face {
+  font-family: "Avenir Next LT Pro";
+  src: url(/Avent-Pro.33316a8a.otf);
+}
 * {
   margin: 0;
   box-sizing: border-box;
@@ -1376,6 +1408,10 @@ body {
 @import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
 @import url("http://fonts.cdnfonts.com/css/futura-md-bt");
 @import url("http://fonts.cdnfonts.com/css/avenir-next-lt-pro");
+@font-face {
+  font-family: "Avenir Next LT Pro";
+  src: url(/Avent-Pro.33316a8a.otf);
+}
 * {
   margin: 0;
   box-sizing: border-box;
@@ -1514,6 +1550,10 @@ ul {
 @import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
 @import url("http://fonts.cdnfonts.com/css/futura-md-bt");
 @import url("http://fonts.cdnfonts.com/css/avenir-next-lt-pro");
+@font-face {
+  font-family: "Avenir Next LT Pro";
+  src: url(/Avent-Pro.33316a8a.otf);
+}
 * {
   margin: 0;
   box-sizing: border-box;
@@ -1685,6 +1725,10 @@ ul {
 @import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
 @import url("http://fonts.cdnfonts.com/css/futura-md-bt");
 @import url("http://fonts.cdnfonts.com/css/avenir-next-lt-pro");
+@font-face {
+  font-family: "Avenir Next LT Pro";
+  src: url(/Avent-Pro.33316a8a.otf);
+}
 * {
   margin: 0;
   box-sizing: border-box;
@@ -1868,6 +1912,10 @@ ul {
 @import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
 @import url("http://fonts.cdnfonts.com/css/futura-md-bt");
 @import url("http://fonts.cdnfonts.com/css/avenir-next-lt-pro");
+@font-face {
+  font-family: "Avenir Next LT Pro";
+  src: url(/Avent-Pro.33316a8a.otf);
+}
 * {
   margin: 0;
   box-sizing: border-box;
