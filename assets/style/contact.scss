@@ -1,34 +1,49 @@
 
 @import "./base.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Syne&display=swap');
+@import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
+@import url('http://fonts.cdnfonts.com/css/futura-md-bt');
+@import url('http://fonts.cdnfonts.com/css/avenir-next-lt-pro');
+
+@font-face {
+    font-family:"Avenir Next LT Pro";
+    src: url(../fonts/Avent-Pro.otf);
+}
 
 .contact {
+    font-family: 'Avenir Next LT Pro', sans-serif;
     position: relative;
     width: 100%;
-    background: black;
+    text-transform: uppercase;
+
+    background: $matte-black;
     &__header {
         margin-bottom: 3rem;
     }
     @media (max-width: 1100px) {
         padding: 2rem;
     } 
-
+    
 }
 
 .form {
+    
     &__info {
-        
         display: flex;
         align-items: center;
-        gap: 1rem;
-        font-size: 2.2vw;
+        gap: 2rem;
+        font-size: 2vw;
         font-weight: 500;
         input {
+            text-transform: uppercase;
             font-size: inherit;
             font-weight: inherit;
+            padding: 1rem;
+            border-radius: 5rem;
             border: none;
             background: $cream-white;
             border-bottom: 1px solid #000;
-            color: #444;
+            color: black;
             &:focus {
                 outline: none;
             }
@@ -36,15 +51,18 @@
 
     }
     &__flex {
+        padding: 2rem;
         display: flex;
-        gap: 1rem;
+        gap: 4rem;
         margin-bottom: 2rem;
         textarea {
             width: 70%;
-            background: transparent;
+            background: $cream-white;
             border: none;
+            padding: 2rem;
+            border-radius: 5rem;
             border-bottom: 1px solid #000;
-            font-size: 2.2vw;
+            font-size: 1.9vw;
             color: #444;
             resize: none;
             &:focus {
@@ -53,6 +71,7 @@
         }
         .circleButton {
             font-weight: 900;
+            
             font-size: 20px;
             &:before {
                 background: #000;

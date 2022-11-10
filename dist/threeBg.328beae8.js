@@ -35816,6 +35816,10 @@ if (typeof window !== 'undefined') {
     window.__THREE__ = REVISION;
   }
 }
+},{}],"assets/images/troy/troy.png":[function(require,module,exports) {
+module.exports = "/troy.994756ec.png";
+},{}],"assets/images/logo/TE.png":[function(require,module,exports) {
+module.exports = "/TE.215f3526.png";
 },{}],"assets/js/images.js":[function(require,module,exports) {
 "use strict";
 
@@ -35824,23 +35828,19 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _troy = _interopRequireDefault(require("../images/troy/troy.png"));
-var _ = _interopRequireDefault(require("../images/shapes/206.png"));
-var _2 = _interopRequireDefault(require("../images/shapes/213.png"));
-var _liquid = _interopRequireDefault(require("../images/textures/liquid.jpg"));
-var _swirls = _interopRequireDefault(require("../images/textures/swirls.jpg"));
 var _TE = _interopRequireDefault(require("../images/logo/TE.png"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 var images = {
   avatar1: _troy.default,
-  bg1: _.default,
-  bg2: _2.default,
-  txt1: _liquid.default,
-  txt2: _swirls.default,
+  bg1: bg1,
+  bg2: bg2,
+  txt1: txt1,
+  txt2: txt2,
   logo: _TE.default
 };
 var _default = images;
 exports.default = _default;
-},{}],"assets/js/threeBg.js":[function(require,module,exports) {
+},{"../images/troy/troy.png":"assets/images/troy/troy.png","../images/logo/TE.png":"assets/images/logo/TE.png"}],"assets/js/threeBg.js":[function(require,module,exports) {
 "use strict";
 
 var THREE = _interopRequireWildcard(require("three"));
@@ -35953,7 +35953,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62614" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62588" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

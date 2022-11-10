@@ -14,6 +14,7 @@ import '../style/contact.scss';
 import '../style/portfolio.scss';
 import '../style/services.scss';
 import '../style/featured.scss';
+import '../style/3Dcard.scss';
 
 
 

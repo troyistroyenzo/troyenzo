@@ -1,7 +1,12 @@
 @import "./base.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Syne&display=swap');
+@import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
+@import url('http://fonts.cdnfonts.com/css/futura-md-bt');
+@import url('http://fonts.cdnfonts.com/css/avenir-next-lt-pro');
+
 
 .services {
-    background: black;
+    background: $matte-black;
     padding: 50px;
     color: #dfd2b8; 
     position: relative;
@@ -41,15 +46,15 @@
 
         } 
         .red {
-            background: linear-gradient(to right, #46F192, #37b871 );
+            background: linear-gradient(to right, #76C893, #65ac7e );
         }
 
         .blue {
-            background: linear-gradient(to right, #271ecc, #221aae );
+            background: linear-gradient(to right, #34A0A4, #2c878a );
         }
 
         .purple {
-            background: linear-gradient(to right, #511430, #5d1738);
+            background: linear-gradient(to right, #168AAD, #147694);
         }
         
         &:hover .icon {

@@ -1,7 +1,16 @@
+@import "./base.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Syne&display=swap');
+@import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
+@import url('http://fonts.cdnfonts.com/css/futura-md-bt');
+@import url('http://fonts.cdnfonts.com/css/avenir-next-lt-pro');
+
+
+
+
 .projects {
+    
     &__header {
         font-size: 60px;
-        font-style: italic;
         padding-bottom: 10px;
     }
     
@@ -23,7 +32,7 @@
         margin-top: 1rem;
         &--name {
             position: relative;
-            font-size: 3vw;
+            font-size: 1.7vw;
             font-family: sans-serif;
             display: flex;
             align-items: center;

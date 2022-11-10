@@ -1,4 +1,10 @@
 @import "./base.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Syne&display=swap');
+@import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
+@import url('http://fonts.cdnfonts.com/css/futura-md-bt');
+@import url('http://fonts.cdnfonts.com/css/avenir-next-lt-pro');
+
+
 
 .skills {
     
@@ -13,7 +19,7 @@
     font-size: 50px;
     height: 17rem;
     width: 100%;
-    background: linear-gradient(to right, #050409, #090818 );
+    background: linear-gradient(to right, #34A0A4, #154749 );
     overflow: hidden;
     text-align: center;
     padding: 1rem;

@@ -164,7 +164,7 @@ ul {
   src: url(/Avent-Pro.33316a8a.otf);
 }
 .landing {
-  background: black;
+  background: #060608;
   font-family: "Avenir Next LT Pro", sans-serif;
   position: relative;
   width: 100%;
@@ -303,7 +303,9 @@ ul {
   }
 }
 .landing .introTitle {
-  font-family: "Avenir Next LT Pro", sans-serif;
+  font-family: "Devant", sans-serif;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
   position: absolute;
   top: 20%;
   left: 3rem;
@@ -318,7 +320,7 @@ ul {
 }
 .landing .introTitle h1 {
   font-family: "Devant";
-  font-size: 100px;
+  font-size: 120px;
   width: 100%;
   padding-top: 1rem;
 }
@@ -490,6 +492,10 @@ ul {
     font-size: 2rem;
   }
 }
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Syne&display=swap");
+@import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
+@import url("http://fonts.cdnfonts.com/css/futura-md-bt");
+@import url("http://fonts.cdnfonts.com/css/avenir-next-lt-pro");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Syne&display=swap");
 @import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
 @import url("http://fonts.cdnfonts.com/css/futura-md-bt");
@@ -708,6 +714,10 @@ ul {
 @import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
 @import url("http://fonts.cdnfonts.com/css/futura-md-bt");
 @import url("http://fonts.cdnfonts.com/css/avenir-next-lt-pro");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Syne&display=swap");
+@import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
+@import url("http://fonts.cdnfonts.com/css/futura-md-bt");
+@import url("http://fonts.cdnfonts.com/css/avenir-next-lt-pro");
 @font-face {
   font-family: "Avenir Next LT Pro";
   src: url(/Avent-Pro.33316a8a.otf);
@@ -788,7 +798,7 @@ ul {
   font-size: 50px;
   height: 17rem;
   width: 100%;
-  background: linear-gradient(to right, #050409, #090818);
+  background: linear-gradient(to right, #34A0A4, #154749);
   overflow: hidden;
   text-align: center;
   padding: 1rem;
@@ -923,7 +933,7 @@ ul {
 
 .reviews {
   position: relative;
-  background: #11111D;
+  background: #060608;
   color: white;
 }
 .reviews__header {
@@ -933,7 +943,7 @@ ul {
 }
 .reviews__header .instructor {
   position: relative;
-  background: #11111D;
+  background: #060608;
 }
 .reviews__header .instructor__curve {
   position: absolute;
@@ -1329,6 +1339,87 @@ ul {
     text-align: center;
   }
 }
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Syne&display=swap");
+@import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
+@import url("http://fonts.cdnfonts.com/css/futura-md-bt");
+@import url("http://fonts.cdnfonts.com/css/avenir-next-lt-pro");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Syne&display=swap");
+@import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
+@import url("http://fonts.cdnfonts.com/css/futura-md-bt");
+@import url("http://fonts.cdnfonts.com/css/avenir-next-lt-pro");
+@font-face {
+  font-family: "Avenir Next LT Pro";
+  src: url(/Avent-Pro.33316a8a.otf);
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+*:after, *:before {
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+.block {
+  height: 150px;
+  width: 200vw;
+}
+
+body {
+  font-family: "Avenir Next LT Pro", sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 700;
+  height: 100vh;
+  background: white;
+}
+
+button, input, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+img, video, canvas, svg {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+/*-----Variables-------------*/
+.section {
+  padding: 1rem;
+  overflow: hidden;
+  min-height: 100vh;
+  padding-top: 5rem;
+}
+@media (min-width: 650px) {
+  .section {
+    padding: 5rem;
+  }
+}
+.section__header-title {
+  font-weight: 400;
+  font-size: 17px;
+  color: #666;
+}
+.section__header-subtitle {
+  font-size: 27px;
+  font-weight: 700;
+}
+
 swiper {
   width: 100%;
   height: 100%;
@@ -1485,7 +1576,7 @@ ul {
   position: relative;
   width: 100%;
   color: #dfd2b8;
-  background: black;
+  background: #060608;
 }
 .faq__wrap {
   padding: 3rem 4.5%;
@@ -1546,6 +1637,10 @@ ul {
   outline: 1px solid #0f0f0f;
   outline-offset: 2px;
 }
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Syne&display=swap");
+@import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
+@import url("http://fonts.cdnfonts.com/css/futura-md-bt");
+@import url("http://fonts.cdnfonts.com/css/avenir-next-lt-pro");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Syne&display=swap");
 @import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
 @import url("http://fonts.cdnfonts.com/css/futura-md-bt");
@@ -1623,10 +1718,16 @@ ul {
   font-weight: 700;
 }
 
+@font-face {
+  font-family: "Avenir Next LT Pro";
+  src: url(/Avent-Pro.33316a8a.otf);
+}
 .contact {
+  font-family: "Avenir Next LT Pro", sans-serif;
   position: relative;
   width: 100%;
-  background: black;
+  text-transform: uppercase;
+  background: #060608;
 }
 .contact__header {
   margin-bottom: 3rem;
@@ -1640,32 +1741,38 @@ ul {
 .form__info {
   display: flex;
   align-items: center;
-  gap: 1rem;
-  font-size: 2.2vw;
+  gap: 2rem;
+  font-size: 2vw;
   font-weight: 500;
 }
 .form__info input {
+  text-transform: uppercase;
   font-size: inherit;
   font-weight: inherit;
+  padding: 1rem;
+  border-radius: 5rem;
   border: none;
   background: #dfd2b8;
   border-bottom: 1px solid #000;
-  color: #444;
+  color: black;
 }
 .form__info input:focus {
   outline: none;
 }
 .form__flex {
+  padding: 2rem;
   display: flex;
-  gap: 1rem;
+  gap: 4rem;
   margin-bottom: 2rem;
 }
 .form__flex textarea {
   width: 70%;
-  background: transparent;
+  background: #dfd2b8;
   border: none;
+  padding: 2rem;
+  border-radius: 5rem;
   border-bottom: 1px solid #000;
-  font-size: 2.2vw;
+  font-size: 1.9vw;
   color: #444;
   resize: none;
 }
@@ -1912,6 +2019,10 @@ ul {
 @import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
 @import url("http://fonts.cdnfonts.com/css/futura-md-bt");
 @import url("http://fonts.cdnfonts.com/css/avenir-next-lt-pro");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Syne&display=swap");
+@import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
+@import url("http://fonts.cdnfonts.com/css/futura-md-bt");
+@import url("http://fonts.cdnfonts.com/css/avenir-next-lt-pro");
 @font-face {
   font-family: "Avenir Next LT Pro";
   src: url(/Avent-Pro.33316a8a.otf);
@@ -1986,7 +2097,7 @@ ul {
 }
 
 .services {
-  background: black;
+  background: #060608;
   padding: 50px;
   color: #dfd2b8;
   position: relative;
@@ -2023,13 +2134,13 @@ ul {
   width: 35%;
 }
 .services__box .red {
-  background: linear-gradient(to right, #46F192, #37b871);
+  background: linear-gradient(to right, #76C893, #65ac7e);
 }
 .services__box .blue {
-  background: linear-gradient(to right, #271ecc, #221aae);
+  background: linear-gradient(to right, #34A0A4, #2c878a);
 }
 .services__box .purple {
-  background: linear-gradient(to right, #511430, #5d1738);
+  background: linear-gradient(to right, #168AAD, #147694);
 }
 .services__box:hover .icon {
   top: 20px;
@@ -2063,9 +2174,89 @@ ul {
   padding-bottom: 15rem;
   transition-delay: 0.25s;
 }
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Syne&display=swap");
+@import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
+@import url("http://fonts.cdnfonts.com/css/futura-md-bt");
+@import url("http://fonts.cdnfonts.com/css/avenir-next-lt-pro");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Syne&display=swap");
+@import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
+@import url("http://fonts.cdnfonts.com/css/futura-md-bt");
+@import url("http://fonts.cdnfonts.com/css/avenir-next-lt-pro");
+@font-face {
+  font-family: "Avenir Next LT Pro";
+  src: url(/Avent-Pro.33316a8a.otf);
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+*:after, *:before {
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+.block {
+  height: 150px;
+  width: 200vw;
+}
+
+body {
+  font-family: "Avenir Next LT Pro", sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 700;
+  height: 100vh;
+  background: white;
+}
+
+button, input, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+img, video, canvas, svg {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+/*-----Variables-------------*/
+.section {
+  padding: 1rem;
+  overflow: hidden;
+  min-height: 100vh;
+  padding-top: 5rem;
+}
+@media (min-width: 650px) {
+  .section {
+    padding: 5rem;
+  }
+}
+.section__header-title {
+  font-weight: 400;
+  font-size: 17px;
+  color: #666;
+}
+.section__header-subtitle {
+  font-size: 27px;
+  font-weight: 700;
+}
+
 .projects__header {
   font-size: 60px;
-  font-style: italic;
   padding-bottom: 10px;
 }
 
@@ -2085,7 +2276,7 @@ ul {
 }
 .project__infos--name {
   position: relative;
-  font-size: 3vw;
+  font-size: 1.7vw;
   font-family: sans-serif;
   display: flex;
   align-items: center;
@@ -2147,6 +2338,94 @@ ul {
   .project__infos--name {
     font-size: 38px;
   }
+}
+.featured_card {
+  max-width: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  transform-style: preserve-3d;
+  min-height: 50vh;
+  width: 35rem;
+  border-radius: 30px;
+  padding: 0rem 5rem;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.sneaker {
+  min-height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sneaker img {
+  width: 20rem;
+  z-index: 2;
+  transition: all 0.75s ease-out;
+}
+
+.circle {
+  width: 15rem;
+  height: 15rem;
+  background: linear-gradient(to right, rgba(245, 70, 66, 0.75), rgba(8, 83, 156, 0.75));
+  position: absolute;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.info h1 {
+  font-size: 3rem;
+  transition: all 0.75s ease-out;
+}
+
+.info h3 {
+  font-size: 1.3rem;
+  padding: 2rem 0rem;
+  color: #585858;
+  font-weight: lighter;
+  transition: all 0.75s ease-out;
+}
+
+.sizes {
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.75s ease-out;
+}
+
+.sizes button {
+  padding: 0.5rem 2rem;
+  background: none;
+  border: none;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #585858;
+}
+
+button.active {
+  background: #585858;
+  color: white;
+}
+
+.purchase {
+  margin-top: 5rem;
+  transition: all 0.75s ease-out;
+}
+
+.purchase button {
+  width: 100%;
+  padding: 1rem 0rem;
+  background: #f54642;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 30px;
+  font-weight: bolder;
 }
 
 /*# sourceMappingURL=/config.0874d187.css.map */
