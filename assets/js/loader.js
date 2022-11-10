@@ -1,4 +1,4 @@
-import '../styles/loader.scss';
+import '../style/loader.scss';
 
 
 let intro = document.querySelector('.intro');

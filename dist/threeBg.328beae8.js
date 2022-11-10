@@ -35818,6 +35818,14 @@ if (typeof window !== 'undefined') {
 }
 },{}],"assets/images/troy/troy.png":[function(require,module,exports) {
 module.exports = "/troy.994756ec.png";
+},{}],"assets/images/shapes/206.png":[function(require,module,exports) {
+module.exports = "/206.46ee3bdb.png";
+},{}],"assets/images/shapes/213.png":[function(require,module,exports) {
+module.exports = "/213.8a2f2479.png";
+},{}],"assets/images/textures/liquid.jpg":[function(require,module,exports) {
+module.exports = "/liquid.d4568e7b.jpg";
+},{}],"assets/images/textures/swirls.jpg":[function(require,module,exports) {
+module.exports = "/swirls.b73eb2ad.jpg";
 },{}],"assets/images/logo/TE.png":[function(require,module,exports) {
 module.exports = "/TE.215f3526.png";
 },{}],"assets/js/images.js":[function(require,module,exports) {
@@ -35828,19 +35836,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _troy = _interopRequireDefault(require("../images/troy/troy.png"));
+var _ = _interopRequireDefault(require("../images/shapes/206.png"));
+var _2 = _interopRequireDefault(require("../images/shapes/213.png"));
+var _liquid = _interopRequireDefault(require("../images/textures/liquid.jpg"));
+var _swirls = _interopRequireDefault(require("../images/textures/swirls.jpg"));
 var _TE = _interopRequireDefault(require("../images/logo/TE.png"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 var images = {
   avatar1: _troy.default,
-  bg1: bg1,
-  bg2: bg2,
-  txt1: txt1,
-  txt2: txt2,
+  bg1: _.default,
+  bg2: _2.default,
+  txt1: _liquid.default,
+  txt2: _swirls.default,
   logo: _TE.default
 };
 var _default = images;
 exports.default = _default;
-},{"../images/troy/troy.png":"assets/images/troy/troy.png","../images/logo/TE.png":"assets/images/logo/TE.png"}],"assets/js/threeBg.js":[function(require,module,exports) {
+},{"../images/troy/troy.png":"assets/images/troy/troy.png","../images/shapes/206.png":"assets/images/shapes/206.png","../images/shapes/213.png":"assets/images/shapes/213.png","../images/textures/liquid.jpg":"assets/images/textures/liquid.jpg","../images/textures/swirls.jpg":"assets/images/textures/swirls.jpg","../images/logo/TE.png":"assets/images/logo/TE.png"}],"assets/js/threeBg.js":[function(require,module,exports) {
 "use strict";
 
 var THREE = _interopRequireWildcard(require("three"));
@@ -35953,7 +35965,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62588" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53438" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
