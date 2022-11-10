@@ -35863,7 +35863,7 @@ function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && 
 var container = document.querySelector('.three_bg');
 var loader = new THREE.TextureLoader();
 var scene = new THREE.Scene();
-scene.background = new THREE.Color(0x000000);
+scene.background = new THREE.Color(0x060608);
 var camera = new THREE.PerspectiveCamera(100, window.innerWidth / window.innerHeight, 0.2, 1300);
 var renderer = new THREE.WebGL1Renderer({
   antialias: true
@@ -35965,7 +35965,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53438" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58817" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

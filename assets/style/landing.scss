@@ -19,7 +19,6 @@
 }
 
 .landing {
-    
     font-family: 'Avenir Next LT Pro', sans-serif;                                
     position: relative;
     width: 100%;
@@ -29,7 +28,7 @@
     .header {
         position: absolute;
         z-index: 1;
-        top: 2rem;
+        top: 1rem;
         left: 50%;
         transform: translateX(-40%);
         
@@ -231,5 +230,6 @@
 
 .landing canvas {
     position: absolute;
-
+    
 }
+

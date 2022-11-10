@@ -5,7 +5,7 @@ import images from './images'
 const container = document.querySelector('.three_bg');
 const loader = new THREE.TextureLoader();
 const scene = new THREE.Scene();
-scene.background = new THREE.Color(0x000000);
+scene.background = new THREE.Color(0x060608);
 const camera = new THREE.PerspectiveCamera(
     100, 
     window.innerWidth / window.innerHeight,

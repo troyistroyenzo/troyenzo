@@ -174,7 +174,7 @@ ul {
 .landing .header {
   position: absolute;
   z-index: 1;
-  top: 2rem;
+  top: 1rem;
   left: 50%;
   transform: translateX(-40%);
 }
@@ -2264,6 +2264,13 @@ ul {
   font-weight: 700;
 }
 
+@font-face {
+  font-family: "Avenir Next LT Pro";
+  src: url(/Avent-Pro.33316a8a.otf);
+}
+.projects {
+  font-family: "Avenir Next LT Pro";
+}
 .projects__header {
   font-size: 60px;
   padding-bottom: 10px;
@@ -2273,10 +2280,9 @@ ul {
   display: grid;
   grid-template-columns: 1fr 3fr;
   gap: lrem;
-  font-family: "Avenir Next LT Pro", sans-serif;
 }
 .project__header span {
-  border-top: 1px solid #000;
+  border-top: 1px solid #dfd2b8;
   padding: 1rem;
   text-align: center;
 }
@@ -2286,10 +2292,10 @@ ul {
 .project__infos--name {
   position: relative;
   font-size: 1.7vw;
-  font-family: sans-serif;
   display: flex;
   align-items: center;
-  font-weight: 400;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 .project__img {
   position: relative;
@@ -2307,25 +2313,31 @@ ul {
 .project__iframe {
   position: relative;
   width: 100vw;
-  height: 700px;
+  height: 400px;
 }
 .project__iframe iframe {
-  min-width: 60vw;
-  min-height: 600px;
+  min-width: 50%;
+  min-height: 0%;
   object-fit: cover;
   position: absolute;
   right: 20vw;
   top: 3rem;
   padding: 1rem;
 }
+.project__iframe p {
+  position: absolute;
+  padding: 1rem;
+  top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 30vw;
+}
 .project__tweet {
   position: relative;
-  width: 100vw;
-  height: 700px;
-  min-width: 60vw;
-  min-height: 600px;
+  width: 81vw;
   object-fit: cover;
-  right: 20vw;
+  right: 1vw;
   top: 3rem;
   padding: 1rem;
 }
@@ -2334,6 +2346,17 @@ ul {
 }
 .project__links button:before {
   background: black;
+}
+.project__tags {
+  position: inherit;
+  padding: 1rem;
+  top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 30vw;
+  font-size: 1.3rem;
+  font-weight: 400;
 }
 
 @media (max-width: 1350px) {
