@@ -146,12 +146,6 @@ exports.default = _default;
 
 var _images = _interopRequireDefault(require("./images"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
-function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
-function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && iter[Symbol.iterator] != null || iter["@@iterator"] != null) return Array.from(iter); }
-function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }
-function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
 Scrollbar.init(document.querySelector('#my-scrollbar'));
 
 // Reviews Swiper
@@ -160,18 +154,6 @@ var swiper_container = document.querySelector(".swiper-wrapper");
 reviews.map(function (review) {
   var template = "<div class=\"swiper-slide\"><div class=\"review\"><svg width=\"100%\" height=\"100%\" viewBox=\"0 0 33 27\" fill=\"none\" xmlns=\"https://www.w3.org/2000/svg\"><path d=\"M0.999961\"></path></svg><div class=\"review__card\"><div class=\"review__topborder\"></div><div class=\"review__text\"><span>".concat(review.review, ".substring(0, 1)</span>").concat(review.review.substring(1, review.review.length), "</div><img src=\"").concat(review.image, "\" alt=\"\" class=\"review_img\"><div class=\"review__profile\"><span>").concat(review.name, "</span><span>").concat(review.position, "</span></div></div></div></div>");
   swiper_container.innerHTML = swiper_container.innerHTMLtemplate;
-});
-var questions = _toConsumableArray(document.querySelectorAll(".question"));
-questions.map(function (question) {
-  var q_text = question.querySelector("h3");
-  q_text.addEventListener('click', function () {
-    questions.filter(function (q) {
-      return q !== question;
-    }).map(function (q) {
-      return q.classList.remove('open');
-    });
-    q_text.classList.toggle("open");
-  });
 });
 },{"./images":"assets/js/images.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];

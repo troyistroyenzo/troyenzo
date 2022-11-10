@@ -133,7 +133,7 @@ questions.map(function (question) {
     }).map(function (q) {
       return q.classList.remove('open');
     });
-    q_text.classList.toggle("open");
+    question.classList.toggle("open");
   });
 });
 },{}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
