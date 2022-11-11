@@ -797,13 +797,13 @@ ul {
 }
 
 .skills {
+  background: #1F2833;
   font-family: "Avenir Next LT Pro", sans-serif;
   color: #dfd2b8;
   position: relative;
   font-size: 50px;
   height: 17rem;
   width: 100%;
-  background: linear-gradient(to right, #34A0A4, #154749);
   overflow: hidden;
   text-align: center;
   padding: 1rem;
@@ -1841,6 +1841,10 @@ ul {
 @import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
 @import url("http://fonts.cdnfonts.com/css/futura-md-bt");
 @import url("http://fonts.cdnfonts.com/css/avenir-next-lt-pro");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Syne&display=swap");
+@import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
+@import url("http://fonts.cdnfonts.com/css/futura-md-bt");
+@import url("http://fonts.cdnfonts.com/css/avenir-next-lt-pro");
 @font-face {
   font-family: "Avenir Next LT Pro";
   src: url(/Avent-Pro.33316a8a.otf);
@@ -1950,9 +1954,10 @@ ul {
 }
 
 .portfolio {
-  background-color: black;
+  background-color: white;
   color: #dfd2b8;
   padding: 100px 7px;
+  width: 75%;
 }
 
 .portfolio .section-title h1:before {
