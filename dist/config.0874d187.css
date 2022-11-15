@@ -182,11 +182,11 @@ ul {
   transform: translateX(-80%);
 }
 .landing .header__wrap {
-  padding: 20px;
+  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 50vw;
+  width: 60vw;
 }
 .landing .header__left {
   display: flex;
@@ -195,7 +195,7 @@ ul {
 }
 .landing .header__left li {
   font-size: 18px;
-  font-weight: 800px;
+  font-weight: 700;
 }
 @media (max-width: 1200px) {
   .landing .header__wrap {
@@ -796,146 +796,6 @@ ul {
   font-weight: 700;
 }
 
-.skills {
-  background: #1F2833;
-  font-family: "Avenir Next LT Pro", sans-serif;
-  color: #dfd2b8;
-  position: relative;
-  font-size: 50px;
-  height: 17rem;
-  width: 100%;
-  overflow: hidden;
-  text-align: center;
-  padding: 1rem;
-}
-.skills img {
-  height: 5rem;
-  padding-left: 150px;
-}
-.skills__header {
-  font-weight: 600;
-}
-.skills__text {
-  position: absolute;
-  white-space: nowrap;
-}
-.skills__text--left {
-  left: 0;
-  top: 6rem;
-  animation: moveLeft 30s linear infinite;
-}
-@keyframes moveLeft {
-  0% {
-    transform: translate3d(0, 0, 0);
-  }
-  100% {
-    transform: translate3d(-50%, 0, 0);
-  }
-}
-.skills__text--right {
-  right: 0;
-  top: 13rem;
-  animation: moveRight 30s linear infinite;
-}
-@keyframes moveRight {
-  0% {
-    transform: translate3d(0, 0, 0);
-  }
-  100% {
-    transform: translate3d(50%, 0, 0);
-  }
-}
-@media (max-width: 700px) {
-  .skills {
-    height: 200px;
-  }
-  .skills__text {
-    font-size: 25px;
-  }
-  .skills__text--left {
-    top: 5rem;
-  }
-  .skills__text--right {
-    top: 8rem;
-  }
-}
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Syne&display=swap");
-@import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
-@import url("http://fonts.cdnfonts.com/css/futura-md-bt");
-@import url("http://fonts.cdnfonts.com/css/avenir-next-lt-pro");
-@font-face {
-  font-family: "Avenir Next LT Pro";
-  src: url(/Avent-Pro.33316a8a.otf);
-}
-* {
-  margin: 0;
-  box-sizing: border-box;
-}
-*:after, *:before {
-  box-sizing: border-box;
-}
-
-html, body {
-  overflow-x: hidden;
-}
-
-.block {
-  height: 150px;
-  width: 200vw;
-}
-
-body {
-  font-family: "Avenir Next LT Pro", sans-serif;
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-  font-weight: 700;
-  height: 100vh;
-  background: white;
-}
-
-button, input, textarea, select {
-  font: inherit;
-}
-
-p, h1, h2, h3, h4, h5, h6 {
-  overflow-wrap: break-word;
-}
-
-img, video, canvas, svg {
-  max-width: 100%;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-ul {
-  list-style: none;
-}
-
-/*-----Variables-------------*/
-.section {
-  padding: 1rem;
-  overflow: hidden;
-  min-height: 100vh;
-  padding-top: 5rem;
-}
-@media (min-width: 650px) {
-  .section {
-    padding: 5rem;
-  }
-}
-.section__header-title {
-  font-weight: 400;
-  font-size: 17px;
-  color: #666;
-}
-.section__header-subtitle {
-  font-size: 27px;
-  font-weight: 700;
-}
-
 .reviews {
   position: relative;
   background: #060608;
@@ -1068,7 +928,7 @@ ul {
 @import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
 @import url("http://fonts.cdnfonts.com/css/futura-md-bt");
 @import url("http://fonts.cdnfonts.com/css/avenir-next-lt-pro");
-.clients {
+.films {
   color: #dfd2b8;
   height: 40vh;
   min-height: 50vh;
@@ -1137,6 +997,10 @@ h2 {
 .copy {
   padding-top: 250px;
 }
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Syne&display=swap");
+@import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
+@import url("http://fonts.cdnfonts.com/css/futura-md-bt");
+@import url("http://fonts.cdnfonts.com/css/avenir-next-lt-pro");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Syne&display=swap");
 @import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
 @import url("http://fonts.cdnfonts.com/css/futura-md-bt");
@@ -2374,6 +2238,180 @@ ul {
   }
   .project__infos--name {
     font-size: 38px;
+  }
+}
+@media (max-width: 740px) {
+  .projects {
+    padding: 1rem;
+  }
+  .project__tags {
+    flex-direction: row;
+    top: 0;
+    left: 0;
+  }
+  .project__infos--name {
+    font-size: 35px;
+  }
+  .project__infos--name span {
+    display: flex;
+    flex-direction: column;
+  }
+  .project__img img {
+    width: 85cw;
+    right: 3rem;
+  }
+}
+@media (max-width: 440px) {
+  .project__tags {
+    gap: 6px;
+    font-size: 14px;
+  }
+  .project__header span {
+    font-size: 25px;
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Syne&display=swap");
+@import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
+@import url("http://fonts.cdnfonts.com/css/futura-md-bt");
+@import url("http://fonts.cdnfonts.com/css/avenir-next-lt-pro");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Syne&display=swap");
+@import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
+@import url("http://fonts.cdnfonts.com/css/futura-md-bt");
+@import url("http://fonts.cdnfonts.com/css/avenir-next-lt-pro");
+@font-face {
+  font-family: "Avenir Next LT Pro";
+  src: url(/Avent-Pro.33316a8a.otf);
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+*:after, *:before {
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+.block {
+  height: 150px;
+  width: 200vw;
+}
+
+body {
+  font-family: "Avenir Next LT Pro", sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 700;
+  height: 100vh;
+  background: white;
+}
+
+button, input, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+img, video, canvas, svg {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+/*-----Variables-------------*/
+.section {
+  padding: 1rem;
+  overflow: hidden;
+  min-height: 100vh;
+  padding-top: 5rem;
+}
+@media (min-width: 650px) {
+  .section {
+    padding: 5rem;
+  }
+}
+.section__header-title {
+  font-weight: 400;
+  font-size: 17px;
+  color: #666;
+}
+.section__header-subtitle {
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.skills {
+  background: #060608;
+  font-family: "Avenir Next LT Pro", sans-serif;
+  color: #dfd2b8;
+  position: relative;
+  font-size: 50px;
+  height: 17rem;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  padding: 1rem;
+}
+.skills img {
+  height: 5rem;
+  padding-left: 150px;
+}
+.skills__header {
+  font-weight: 600;
+}
+.skills__text {
+  position: absolute;
+  white-space: nowrap;
+}
+.skills__text--left {
+  left: 0;
+  top: 6rem;
+  animation: moveLeft 30s linear infinite;
+}
+@keyframes moveLeft {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+.skills__text--right {
+  right: 0;
+  top: 13rem;
+  animation: moveRight 30s linear infinite;
+}
+@keyframes moveRight {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(50%, 0, 0);
+  }
+}
+@media (max-width: 700px) {
+  .skills {
+    height: 200px;
+  }
+  .skills__text {
+    font-size: 25px;
+  }
+  .skills__text--left {
+    top: 5rem;
+  }
+  .skills__text--right {
+    top: 8rem;
   }
 }
 

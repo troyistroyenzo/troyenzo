@@ -1,72 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import "./base.scss";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Syne&display=swap');
 @import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
 @import url('http://fonts.cdnfonts.com/css/futura-md-bt');
 @import url('http://fonts.cdnfonts.com/css/avenir-next-lt-pro');
 
 
-.clients {
-    color: #dfd2b8;  
-    height: 40vh;
-    min-height: 50vh;
-    text-align: center;
-    width: 100%;
-}
 
-.container{
-    padding-top: 150px;
-}
-
-h2 {
-    text-align: center;
-    padding: 50px;
+.skills {
+    
+    img {
+        height: 5rem;
+        padding-left: 150px;
+        
+    }
+    background: $matte-black;
+    font-family: 'Avenir Next LT Pro', sans-serif;    
+    color: #dfd2b8;    
+    position: relative;
     font-size: 50px;
-    font-weight: 600;
-}
-
-.slick-slide{
-    margin: 0 20px;
-}
-
-.slick-slide iframe{
-    text-align: center;
+    height: 17rem;
     width: 100%;
-    min-height: 20vh;
-    padding-bottom: 50px;
-    
-}
-.slick-slider{
-    position: relative;
-    display: block;
-    box-sizing: border-box;
-}
-.slick-list{
-    position: relative;
-    display: block;
     overflow: hidden;
-    margin: 0;
-    padding: 0;
-}
-.slick-track{
-    position: relative;
-    top: 0;
-    left: 0;
-    display: block;
-    
-}
-.slick-slide{
-    display: none;
-    float: left;
-    height: 100%;
-    min-height: 1px;
-    
-}
-.slick-slide img{
-    display: block;
-}
-.slick-initialized .slick-slide{
-    display: block;
-}
-.copy{
-    padding-top: 250px;
+    text-align: center;
+    padding: 1rem;
+    &__header {
+        font-weight: 600;
+    }
+    &__text {
+        position: absolute;
+        white-space: nowrap;
+        &--left {
+            left: 0;
+            top: 6rem;
+            animation: moveLeft 30s linear infinite;
+            @keyframes moveLeft {
+                0%{
+                    transform: translate3d(0, 0, 0);
+                }
+                100%{
+                    transform: translate3d(-50%, 0, 0);
+                }
+            }
+        }
+        &--right {
+            right: 0;
+            top: 13rem;
+            animation: moveRight 30s linear infinite;
+            @keyframes moveRight {
+                0%{
+                    transform: translate3d(0, 0, 0);
+                }
+                100%{
+                    transform: translate3d(50%, 0, 0);
+                }
+            }
+        }
+    }
+    @media(max-width:700px) {
+        & {
+            height: 200px;
+        }
+        &__text {
+            font-size: 25px;
+            &--left {
+                top: 5rem;
+            }
+            &--right {
+                top: 8rem;
+            }
+        }
+    }
+
+
+
 }

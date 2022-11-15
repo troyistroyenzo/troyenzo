@@ -39,11 +39,11 @@
     
 
         &__wrap {
-            padding: 20px;
+            padding: 10px;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            width: 50vw;
+            width: 60vw;
         }
 
         
@@ -54,7 +54,7 @@
             gap: 2.3rem;
             & li {
                 font-size: 18px;
-                font-weight: 800px;
+                font-weight: 700;
             }
         }
         @media(max-width: 1200px) {

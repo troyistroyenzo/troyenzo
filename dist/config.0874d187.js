@@ -184,10 +184,6 @@ module.hot.accept(reloadCSS);
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\fonts\\Avent-Pro.otf":[["Avent-Pro.33316a8a.otf","assets/fonts/Avent-Pro.otf"],"assets/fonts/Avent-Pro.otf"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/style/skills.scss":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
 },{"./..\\fonts\\Avent-Pro.otf":[["Avent-Pro.33316a8a.otf","assets/fonts/Avent-Pro.otf"],"assets/fonts/Avent-Pro.otf"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/style/reviews.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
@@ -196,7 +192,7 @@ module.hot.accept(reloadCSS);
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/style/clients.scss":[function(require,module,exports) {
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/style/films.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
@@ -228,6 +224,10 @@ module.hot.accept(reloadCSS);
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
+},{"./..\\fonts\\Avent-Pro.otf":[["Avent-Pro.33316a8a.otf","assets/fonts/Avent-Pro.otf"],"assets/fonts/Avent-Pro.otf"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/style/clients.scss":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
 },{"./..\\fonts\\Avent-Pro.otf":[["Avent-Pro.33316a8a.otf","assets/fonts/Avent-Pro.otf"],"assets/fonts/Avent-Pro.otf"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/js/config.js":[function(require,module,exports) {
 "use strict";
 
@@ -235,10 +235,9 @@ require("../style/base.scss");
 require("../style/landing.scss");
 require("../style/loader.scss");
 require("../style/links.scss");
-require("../style/skills.scss");
 require("../style/reviews.scss");
 require("../style/fade.scss");
-require("../style/clients.scss");
+require("../style/films.scss");
 require("../style/projects.scss");
 require("../style/swiper.scss");
 require("../style/faq.scss");
@@ -246,7 +245,8 @@ require("../style/contact.scss");
 require("../style/portfolio.scss");
 require("../style/services.scss");
 require("../style/featured.scss");
-},{"../style/base.scss":"assets/style/base.scss","../style/landing.scss":"assets/style/landing.scss","../style/loader.scss":"assets/style/loader.scss","../style/links.scss":"assets/style/links.scss","../style/skills.scss":"assets/style/skills.scss","../style/reviews.scss":"assets/style/reviews.scss","../style/fade.scss":"assets/style/fade.scss","../style/clients.scss":"assets/style/clients.scss","../style/projects.scss":"assets/style/projects.scss","../style/swiper.scss":"assets/style/swiper.scss","../style/faq.scss":"assets/style/faq.scss","../style/contact.scss":"assets/style/contact.scss","../style/portfolio.scss":"assets/style/portfolio.scss","../style/services.scss":"assets/style/services.scss","../style/featured.scss":"assets/style/featured.scss"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+require("../style/clients.scss");
+},{"../style/base.scss":"assets/style/base.scss","../style/landing.scss":"assets/style/landing.scss","../style/loader.scss":"assets/style/loader.scss","../style/links.scss":"assets/style/links.scss","../style/reviews.scss":"assets/style/reviews.scss","../style/fade.scss":"assets/style/fade.scss","../style/films.scss":"assets/style/films.scss","../style/projects.scss":"assets/style/projects.scss","../style/swiper.scss":"assets/style/swiper.scss","../style/faq.scss":"assets/style/faq.scss","../style/contact.scss":"assets/style/contact.scss","../style/portfolio.scss":"assets/style/portfolio.scss","../style/services.scss":"assets/style/services.scss","../style/featured.scss":"assets/style/featured.scss","../style/clients.scss":"assets/style/clients.scss"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -271,7 +271,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50785" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65323" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
