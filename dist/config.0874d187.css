@@ -2139,6 +2139,7 @@ ul {
   src: url(/Avent-Pro.33316a8a.otf);
 }
 .projects {
+  max-width: 100%;
   font-family: "Avenir Next LT Pro";
 }
 .projects__header {
@@ -2222,18 +2223,17 @@ ul {
   }
 }
 .perspective {
-  width: 100%;
-  perspective: 1000px;
+  width: 90%;
+  perspective: 2000rem;
 }
 
 .threeDimensionalCard {
-  width: 100vh;
-  height: 100%;
+  max-width: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
-  padding: 8.5vh;
+  padding: 10.5vh;
 }
 
 .card {
