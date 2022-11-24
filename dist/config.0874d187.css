@@ -195,7 +195,7 @@ ul {
 }
 .landing .header__left li {
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 700;
 }
 @media (max-width: 1200px) {
   .landing .header__wrap {
@@ -314,7 +314,7 @@ ul {
   color: #dfd2b8;
 }
 .landing .introTitle h4 {
-  font-size: 3px;
+  font-size: 30px;
   width: 75%;
 }
 .landing .introTitle h1 {
