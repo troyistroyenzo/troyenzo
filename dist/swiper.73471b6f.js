@@ -119,19 +119,11 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   return newRequire;
 })({"assets/js/swiper.js":[function(require,module,exports) {
 var swiper = new Swiper(".mySwiper", {
-  spaceBetween: 210,
   slidesPerView: 3,
-  freeMode: true,
-  watchSlidesProgress: true
-});
-var swiper2 = new Swiper(".mySwiper2", {
-  spaceBetween: 10,
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev"
-  },
-  thumbs: {
-    swiper: swiper
+  spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true
   }
 });
 },{}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
@@ -159,7 +151,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51078" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58951" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

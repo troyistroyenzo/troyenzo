@@ -14,5 +14,6 @@ import '../style/portfolio.scss';
 import '../style/services.scss';
 import '../style/featured.scss';
 import '../style/clients.scss';
+import '../style/cube.scss';
 
 
