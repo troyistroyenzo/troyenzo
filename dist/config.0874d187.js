@@ -200,7 +200,7 @@ module.hot.accept(reloadCSS);
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\fonts\\Avent-Pro.otf":[["Avent-Pro.33316a8a.otf","assets/fonts/Avent-Pro.otf"],"assets/fonts/Avent-Pro.otf"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/style/swiper.scss":[function(require,module,exports) {
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/style/swiper.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
@@ -209,10 +209,6 @@ var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
 },{"./..\\fonts\\Avent-Pro.otf":[["Avent-Pro.33316a8a.otf","assets/fonts/Avent-Pro.otf"],"assets/fonts/Avent-Pro.otf"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/style/contact.scss":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"./..\\fonts\\Avent-Pro.otf":[["Avent-Pro.33316a8a.otf","assets/fonts/Avent-Pro.otf"],"assets/fonts/Avent-Pro.otf"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/style/portfolio.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
@@ -246,12 +242,11 @@ require("../style/projects.scss");
 require("../style/swiper.scss");
 require("../style/faq.scss");
 require("../style/contact.scss");
-require("../style/portfolio.scss");
 require("../style/services.scss");
 require("../style/featured.scss");
 require("../style/clients.scss");
 require("../style/cube.scss");
-},{"../style/base.scss":"assets/style/base.scss","../style/landing.scss":"assets/style/landing.scss","../style/loader.scss":"assets/style/loader.scss","../style/links.scss":"assets/style/links.scss","../style/reviews.scss":"assets/style/reviews.scss","../style/fade.scss":"assets/style/fade.scss","../style/films.scss":"assets/style/films.scss","../style/projects.scss":"assets/style/projects.scss","../style/swiper.scss":"assets/style/swiper.scss","../style/faq.scss":"assets/style/faq.scss","../style/contact.scss":"assets/style/contact.scss","../style/portfolio.scss":"assets/style/portfolio.scss","../style/services.scss":"assets/style/services.scss","../style/featured.scss":"assets/style/featured.scss","../style/clients.scss":"assets/style/clients.scss","../style/cube.scss":"assets/style/cube.scss"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"../style/base.scss":"assets/style/base.scss","../style/landing.scss":"assets/style/landing.scss","../style/loader.scss":"assets/style/loader.scss","../style/links.scss":"assets/style/links.scss","../style/reviews.scss":"assets/style/reviews.scss","../style/fade.scss":"assets/style/fade.scss","../style/films.scss":"assets/style/films.scss","../style/projects.scss":"assets/style/projects.scss","../style/swiper.scss":"assets/style/swiper.scss","../style/faq.scss":"assets/style/faq.scss","../style/contact.scss":"assets/style/contact.scss","../style/services.scss":"assets/style/services.scss","../style/featured.scss":"assets/style/featured.scss","../style/clients.scss":"assets/style/clients.scss","../style/cube.scss":"assets/style/cube.scss"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -276,7 +271,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58878" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54304" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
