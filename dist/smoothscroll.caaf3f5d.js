@@ -6362,8 +6362,76 @@ exports.default = _default;
 },{"tslib":"node_modules/tslib/tslib.es6.js","./polyfills":"node_modules/smooth-scrollbar/polyfills.js","./scrollbar":"node_modules/smooth-scrollbar/scrollbar.js","./plugin":"node_modules/smooth-scrollbar/plugin.js","./style":"node_modules/smooth-scrollbar/style.js"}],"assets/js/smoothscroll.js":[function(require,module,exports) {
 "use strict";
 
-var _smoothScrollbar = _interopRequireDefault(require("smooth-scrollbar"));
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+var _smoothScrollbar = _interopRequireWildcard(require("smooth-scrollbar"));
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); Object.defineProperty(subClass, "prototype", { writable: false }); if (superClass) _setPrototypeOf(subClass, superClass); }
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } else if (call !== void 0) { throw new TypeError("Derived constructors may only return object or undefined"); } return _assertThisInitialized(self); }
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+var AnchorPlugin = /*#__PURE__*/function (_ScrollbarPlugin) {
+  _inherits(AnchorPlugin, _ScrollbarPlugin);
+  var _super = _createSuper(AnchorPlugin);
+  function AnchorPlugin() {
+    var _this;
+    _classCallCheck(this, AnchorPlugin);
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+    _this = _super.call.apply(_super, [this].concat(args));
+    _defineProperty(_assertThisInitialized(_this), "onHashChange", function () {
+      _this.jumpToHash(window.location.hash);
+    });
+    _defineProperty(_assertThisInitialized(_this), "onClick", function (event) {
+      var target = event.target;
+      if (target.tagName !== 'A') {
+        return;
+      }
+      var hash = target.getAttribute('href');
+      if (!hash || hash.charAt(0) !== '#') {
+        return;
+      }
+      _this.jumpToHash(hash);
+    });
+    _defineProperty(_assertThisInitialized(_this), "jumpToHash", function (hash) {
+      var _assertThisInitialize = _assertThisInitialized(_this),
+        scrollbar = _assertThisInitialize.scrollbar;
+      if (!hash) {
+        return;
+      }
+
+      // reset scrollTop
+      scrollbar.containerEl.scrollTop = 0;
+      scrollbar.scrollIntoView(document.querySelector(hash));
+    });
+    return _this;
+  }
+  _createClass(AnchorPlugin, [{
+    key: "onInit",
+    value: function onInit() {
+      this.jumpToHash(window.location.hash);
+      window.addEventListener('hashchange', this.onHashChange);
+      this.scrollbar.contentEl.addEventListener('click', this.onClick);
+    }
+  }, {
+    key: "onDestory",
+    value: function onDestory() {
+      window.removeEventListener('hashchange', this.onHashChange);
+      this.scrollbar.contentEl.removeEventListener('click', this.onClick);
+    }
+  }]);
+  return AnchorPlugin;
+}(_smoothScrollbar.ScrollbarPlugin); // usage
+_defineProperty(AnchorPlugin, "pluginName", 'anchor');
+_smoothScrollbar.default.use(AnchorPlugin);
 _smoothScrollbar.default.init(document.querySelector('body'));
 },{"smooth-scrollbar":"node_modules/smooth-scrollbar/index.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -6390,7 +6458,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54304" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51077" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
