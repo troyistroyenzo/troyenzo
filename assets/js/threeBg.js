@@ -2,6 +2,7 @@
 import * as THREE from 'three';
 import images from './images'
 
+
 const container = document.querySelector('.three_bg');
 const loader = new THREE.TextureLoader();
 const scene = new THREE.Scene();
